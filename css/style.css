@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(221deg, #2b3467, #eb455f);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 90% 0%;
+  }
+  50% {
+    background-position: 11% 100%;
+  }
+  100% {
+    background-position: 90% 0%;
+  }
+}
+
+.bi {
+  font-size: 2rem;
+  color: white;
+}
+
+.pointerauto {
+  cursor: pointer;
+}
